@@ -1,0 +1,160 @@
+body {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif,Arial;
+  background-color: #E6E6E6;
+}
+
+#container {
+  width: 1000px;
+  margin: 20px auto;
+  background-color: white;
+}
+
+header, footer {
+  width: auto;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  color: white;
+  background-color: #08659B;
+}
+
+header h1 {
+  font-size: 22px;
+}
+
+.main-nav {
+  width: auto;
+  height: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+#main-wrapper {
+  width: auto;
+  height: auto;
+  display: flex;
+  margin: 10px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+main {
+  width: 700px;
+  height: auto;
+  border-style: solid;
+  border-width: 0px 1px 0px 0px;
+  float: left;
+}
+
+aside {
+  width: 214px;
+  height: auto;
+  float: left;
+}
+
+.main-article {
+  width: auto;
+  margin: 10px;
+  padding: 15px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.main-article h2 {
+  text-shadow: 2px 2px 5px darkblue;
+}
+
+.bold-blue {
+  font-weight: bold;
+  color: darkblue;
+}
+
+.main-nav a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  display: block;
+  float: left;
+  margin-right: 20px;
+  color: black;
+}
+
+.main-nav button {
+  float: right;
+}
+
+#hello {
+  float: right;
+  color: darkred;
+}
+
+.main-nav {
+  padding-right: 20px;
+}
+
+nav a:hover {
+  color: #08659B;
+}
+
+.side-nav {
+  padding-left: 60px;
+  padding-top: 40px;
+  text-align: left;
+  position: fixed;
+}
+
+aside nav ul {
+  padding-left: 0;
+}
+
+.side-nav a {
+  font-size: 18px;
+  text-decoration: none;;
+  color: black;
+}
+
+.sideclock {
+  width: auto;
+  font-size: 18px;
+  color: darkblue;
+  padding-top: 20px;
+  text-align: center;
+}
+
+
+.more-link {
+  text-decoration: none;
+  color: darkred;
+}
+
+.more-link:hover {
+  text-decoration: underline;
+  color: darkblue;
+}
+
+.more-link:visited {
+  color: darkgrey;
+}
+
+figure {
+  text-align: center;
+  color: darkgrey;
+  font-style: italic;
+  float: right;
+}
+
+table {
+  text-align: center;
+  background: #E6E6E6;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+tr:hover {
+  background: lightgrey;
+}
